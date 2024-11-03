@@ -1,3 +1,4 @@
+import { IconArrowLeft } from "@tabler/icons-react";
 import { useState } from "react";
 import "./App.css";
 import reactLogo from "./assets/react.svg";
@@ -29,7 +30,10 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <div style={{ border: "1px solid black", padding: "10px" }}>
-        <p>{import.meta.env.VITE_PROJECT_VERSION}</p>
+        <div>
+          <IconArrowLeft />
+          <p>{import.meta.env.VITE_PROJECT_VERSION}</p>
+        </div>
       </div>
     </>
   );
