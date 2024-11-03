@@ -6,6 +6,10 @@
   :root {
     --radius: 0.5rem;
   }
+
+  button {
+    @apply border border-black px-2 py-1 rounded-md active:scale-95;
+  }
 }
 
 @layer components {
