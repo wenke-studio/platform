@@ -31,7 +31,8 @@ function App() {
       </p>
       <div style={{ border: "1px solid black", padding: "10px" }}>
         <div>
-          <IconArrowLeft />
+          <span className="debug w-16 h-16">debug</span>
+          <IconArrowLeft className="text-green-500" />
           <p>{import.meta.env.VITE_PROJECT_VERSION}</p>
         </div>
       </div>
