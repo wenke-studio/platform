@@ -1,3 +1,4 @@
+import DemoComponent from "@/DemoComponent";
 import { IconArrowLeft } from "@tabler/icons-react";
 import { useState } from "react";
 import "./App.css";
@@ -35,6 +36,7 @@ function App() {
           <IconArrowLeft className="text-green-500" />
           <p>{import.meta.env.VITE_PROJECT_VERSION}</p>
         </div>
+        <DemoComponent />
       </div>
     </>
   );
