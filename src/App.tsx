@@ -28,6 +28,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div style={{ border: "1px solid black", padding: "10px" }}>
+        <p>{import.meta.env.VITE_PROJECT_VERSION}</p>
+      </div>
     </>
   );
 }
