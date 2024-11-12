@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  /* shadcn-ui */
   :root {
     --radius: 0.5rem;
     --sidebar-background: 0 0% 98%;
@@ -15,9 +16,6 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
-  button {
-    @apply border border-black px-2 py-1 rounded-md active:scale-95;
-  }
   .dark {
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
@@ -28,6 +26,8 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
+  /* custom */
 }
 
 @layer components {
