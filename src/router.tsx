@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "./App.tsx";
+import { App } from "./App.tsx";
+import { DashboardLayout } from "./components/dashboard/dashboard-layout";
 
 const router = createBrowserRouter([
   {
@@ -7,8 +8,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/about",
-    element: <div>About</div>,
+    path: "/dashboard",
+    element: <DashboardLayout />,
   },
 ]);
 
