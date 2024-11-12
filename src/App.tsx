@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import "./App.css";
 import reactLogo from "./assets/react.svg";
+import DemoMarkdown from "./DemoMarkdown";
 import viteLogo from "/vite.svg";
 
 const DemoAction = () => {
@@ -61,6 +62,9 @@ function App() {
         <div>
           <DemoAction />
         </div>
+      </div>
+      <div>
+        <DemoMarkdown />
       </div>
     </>
   );
