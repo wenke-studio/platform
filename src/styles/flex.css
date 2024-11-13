@@ -1,0 +1,37 @@
+@layer utilities {
+  /* Flex Justify Content */
+
+  .flex.start {
+    @apply justify-start;
+  }
+
+  .flex.center {
+    @apply justify-center;
+  }
+
+  .flex.end {
+    @apply justify-end;
+  }
+
+  .flex.between {
+    @apply justify-between;
+  }
+
+  .flex.evenly {
+    @apply justify-evenly;
+  }
+
+  /* Flex Align Items */
+
+  .flex.top {
+    @apply items-start;
+  }
+
+  .flex.middle {
+    @apply items-center;
+  }
+
+  .flex.bottom {
+    @apply items-end;
+  }
+}
